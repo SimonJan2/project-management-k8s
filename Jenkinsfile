@@ -1,6 +1,5 @@
 pipeline {
     agent any
-    
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub')
         SERVER_IMAGE = 'simonjan2/project-management:server'
